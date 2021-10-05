@@ -3,7 +3,9 @@ export default [
     slug: "welcome",
     title: "Welcome to the Contentful Jamstack conf workshop!",
     coverImage: {
-      url: "/hero.png",
+      url: "/workshop.png",
+      width: 2048,
+      height: 1152,
     },
     date: "2021-10-05T00:00:00.000+02:00",
     author: {
@@ -13,7 +15,7 @@ export default [
       },
     },
     excerpt:
-      "We're excited to have you around! And today we'll build our own Next.js/Contentful blog from scratch!!!",
+      "We're excited to have you around! And today we'll build our own Next.js/Contentful blog from scratch! Let's see what we can build together.",
     content: {
       json: {
         nodeType: "document",
@@ -58,7 +60,9 @@ export default [
     slug: "another-post",
     title: "Another example post!",
     coverImage: {
-      url: "/hero.png",
+      url: "/hero-1.png",
+      width: 1114,
+      height: 623,
     },
     date: "2021-10-05T00:00:00.000+02:00",
     author: {
@@ -113,7 +117,9 @@ export default [
     slug: "second-post",
     title: "And the last example post",
     coverImage: {
-      url: "/hero.png",
+      url: "/hero-2.png",
+      width: 1114,
+      height: 623,
     },
     date: "2021-10-05T00:00:00.000+02:00",
     author: {
