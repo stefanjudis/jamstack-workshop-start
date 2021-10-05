@@ -16,3 +16,19 @@
 .markdown h3 {
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
+
+.markdown h4 {
+  @apply text-xl mt-8 mb-4 leading-snug;
+}
+
+.markdown a {
+  @apply underline;
+}
+
+.markdown p > code {
+  @apply bg-gray-700 text-white p-1;
+}
+
+.markdown details {
+  @apply bg-gray-100 p-4;
+}
