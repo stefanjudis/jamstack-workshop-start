@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import cn from "classnames";
 
-export default function CoverImage({ title, url, slug, width, height }) {
+export default function CoverImage({ title, url, slug, width, height, sizes }) {
   const image = (
     <div
       className={cn("drop-shadow-small", {
@@ -10,6 +10,8 @@ export default function CoverImage({ title, url, slug, width, height }) {
       })}
     >
       <Image
+        layout={sizes ? "responsive" : "intrinsic"}
+        sizes={sizes || ""}
         width={width}
         height={height}
         alt={`Cover Image for ${title}`}
