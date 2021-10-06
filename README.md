@@ -43,7 +43,7 @@ Let's implement next/image and a custom loader.
 
 Learn how to rebuild your static site each time you publish a change in Contentful.
 
-## [8. Contentful ecosystem](https://contentful-jamstack-workshop.vercel.app/posts/8-how-to-set-up-content-preview)
+## [8. Contentful ecosystem](https://contentful-jamstack-workshop.vercel.app/posts/8-contentful-ecosystem)
 
 Let's take a look at the powerful open-source tooling, extensibility and learning resources
 available at Contentful.
